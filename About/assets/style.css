@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%; /* Tipografía base: 10px ???*/
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 1rem; /* Tamaño de fuente: 16px */
+  line-height: 1.3;
+  color: #fcfbfb;
+}
+
+p + p {
+  margin: 2rem 0 2rem;
+}
+
+.navbar {
+  font-size: 1.25rem; /* Tamaño de fuente: 20px */
+}
+
+.logo {
+  font-family: "AnonymousPro";
+}
+
+.works {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 5.37rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about {
+  background: #f76144;
+}
+
+@media (min-width: 960px) {
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    width: 35%;
+    padding: 5rem;
+  }
+  h1 {
+    font-size: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
