@@ -25,9 +25,15 @@ p + p {
 }
 
 h1 {
-  font-size: 8.6rem;
+  font-size: 10rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.headline {
+  font-family: "Anonymous Pro";
+  font-size: 1.8rem;
+  width: 70%;
 }
 
 .row {

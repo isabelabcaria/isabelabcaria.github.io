@@ -1,13 +1,13 @@
 html {
-  font-size: 45%; /* Tipografía base: 10px*/
-  background: #f76144;
+  font-size: 45%; /* Tipografía base: 10px -> p facilitar o calculo */
+  background: #fcfbfb;
 }
 
 body {
   font-family: "Poppins";
-  font-size: 1.6rem; /* Tamaño de fuente: 16px */
-  line-height: 1.6;
-  color: #fcfbfb;
+  font-size: 2rem; /* Tamaño de fuente: 16px */
+  line-height: 1.3;
+  color: #232020;
 }
 
 p + p {
@@ -19,15 +19,17 @@ p + p {
   font-size: 2rem; /* Tamaño de fuente: 20px */
   padding-right: 1rem;
   padding-left: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
-h1 {
-  font-size: 8.6rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+.topic {
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 3rem;
+}
+
+.titulo_work {
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .row {
@@ -39,10 +41,6 @@ h1 {
   font-size: 2rem; /* Tamaño de fuente: 20px */
   padding-right: 1rem;
   padding-left: 1rem;
-  padding-bottom: 1rem;
-  padding-top: 3rem;
-  display: flex;
-  justify-content: space-between;
 }
 
 @media (min-width: 960px) {
@@ -50,6 +48,9 @@ h1 {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .row {
@@ -61,16 +62,15 @@ h1 {
     padding: 5rem;
   }
 
-  h1 {
-    font-size: 10rem;
+  .topic {
+    font-size: 3rem;
+    font-weight: 200;
     padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .footer {
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
   }
 }
