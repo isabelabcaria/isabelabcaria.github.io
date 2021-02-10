@@ -15,7 +15,6 @@ p + p {
 }
 
 .navbar {
-  font-weight: 900;
   font-size: 2rem; /* Tamaño de fuente: 20px */
   padding-right: 1rem;
   padding-left: 1rem;
@@ -41,7 +40,6 @@ h1 {
 }
 
 .footer {
-  font-weight: 900;
   font-size: 2rem; /* Tamaño de fuente: 20px */
   padding-right: 1rem;
   padding-left: 1rem;
