@@ -24,6 +24,7 @@ p + p {
 }
 
 h1 {
+  font-weight: 900;
   font-size: 10rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -60,7 +61,8 @@ h1 {
   }
 
   h1 {
-    font-size: 10rem;
+    font-weight: 900;
+    font-size: 25rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
