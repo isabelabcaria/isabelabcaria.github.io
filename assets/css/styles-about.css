@@ -123,13 +123,10 @@ h1 {
   padding-top: 5rem;
 }
 
-.footer-container {
-  padding-top: 2rem;
-}
-
 /* ----------------------- FOOTER ------------------ */
 
 .footer-container {
+  padding-top: 2rem;
   bottom: 0;
 }
 /* ----------------------- RESPONSIVE 960px ------------------ */
@@ -154,5 +151,13 @@ h1 {
     font-size: 25rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .column-img {
+    padding: 1rem;
+  }
+
+  .works-img {
+    border-radius: 10%;
   }
 }
