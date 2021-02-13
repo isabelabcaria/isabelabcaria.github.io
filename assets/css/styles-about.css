@@ -99,7 +99,7 @@ p + p {
   margin: 2rem 0 2rem;
 }
 
-/* ----------------------- HEADER ------------------ */
+/* ----------------------- UTILITIES ------------------ */
 
 .navbar,
 .footer-container {
@@ -117,13 +117,16 @@ p + p {
   z-index: 9;
 }
 
+.wrapper {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
 h1 {
   font-weight: 900;
   font-size: 10rem;
   padding-top: 5rem;
 }
-
-/* ----------------------- FOOTER ------------------ */
 
 .footer-container {
   padding-top: 2rem;
