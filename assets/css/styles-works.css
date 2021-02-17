@@ -1,13 +1,13 @@
 html {
   font-size: 45%; /* Tipografía base: 10px*/
-  background: #f76144;
+  background: #ffd95f;
 }
 
 body {
   font-family: "Poppins";
   font-size: 1.6rem; /* Tamaño de fuente: 16px */
   line-height: 1.6;
-  color: #fcfbfb;
+  color: #232020;
 }
 
 p + p {

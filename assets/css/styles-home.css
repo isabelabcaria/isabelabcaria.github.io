@@ -1,13 +1,13 @@
 html {
   font-size: 45%; /* Tipografía base: 10px*/
-  background: #f76144;
+  background: #ffd95f;
 }
 
 body {
   font-family: "Poppins";
-  font-size: 1.6rem; /* Tamaño de fuente: 16px */
+  font-size: 2rem;
   line-height: 1.6;
-  color: #fcfbfb;
+  color: #232020;
 }
 
 p + p {
@@ -30,8 +30,7 @@ h1 {
 }
 
 .headline {
-  font-family: "Anonymous Pro";
-  font-size: 1.8rem;
+  font-size: 2rem;
   width: 70%;
 }
 
@@ -54,6 +53,10 @@ h1 {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
+  }
+
+  .headline {
+    font-size: 3.5rem;
   }
 
   .row {
