@@ -89,7 +89,7 @@ html {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 2rem; /* Tamaño de fuente: 16px */
   line-height: 1.6;
   color: #232020;
@@ -101,7 +101,7 @@ p + p {
 
 /* ----------------------- UTILITIES ------------------ */
 
-a:link {
+a {
   text-decoration: none;
   color: #232020;
 }
@@ -122,11 +122,6 @@ a:link {
   z-index: 9;
 }
 
-.wrapper {
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
 h1 {
   font-weight: 900;
   font-size: 10rem;
@@ -136,6 +131,37 @@ h1 {
 .footer-container {
   padding-top: 2rem;
   bottom: 0;
+}
+
+/* ----------------------- LAYOUT ------------------ */
+
+.billboard {
+  min-height: 100vh;
+  position: relative;
+}
+
+.contact-section {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.wrapper.small {
+  max-width: 60rem; /* 600px */
+}
+
+.wrapper.medium {
+  max-width: 96rem; /* 960px */
+}
+
+.wrapper.large {
+  max-width: 140rem; /* 1400px */
 }
 
 /* ----------------------- WORKS ------------------ */
