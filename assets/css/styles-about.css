@@ -231,6 +231,10 @@ h1 {
     display: flex;
   }
 
+  .row-headline {
+    display: flex;
+  }
+
   .column-billboard {
     width: 50%;
     padding: 5rem;
