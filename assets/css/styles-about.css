@@ -96,7 +96,7 @@ body {
 }
 
 p + p {
-  margin: 6rem 0 6rem;
+  margin: 6rem 0 6rem; /* dif */
 }
 
 /* ----------------------- UTILITIES ------------------ */
@@ -147,24 +147,7 @@ h1 {
   width: 100%;
 }
 
-.wrapper {
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.wrapper.small {
-  max-width: 60rem; /* 600px */
-}
-
-.wrapper.medium {
-  max-width: 96rem; /* 960px */
-}
-
-.wrapper.large {
-  max-width: 140rem; /* 1400px */
-}
-
-/* ----------------------- WORKS ------------------ */
+/* -------------------------------- WORKS -------------------------------- */
 
 .title-works {
   font-size: 3rem;
@@ -178,6 +161,69 @@ h1 {
   border-radius: 5%;
 }
 
+/* -------------------------------- PROJECT 1 -------------------------------- */
+
+/* ----------------------- MAIN ------------------ */
+
+.wrapper {
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+.wrapper.medium {
+  max-width: 145rem;
+}
+
+.topic {
+  font-size: 2.8rem;
+  font-weight: 200;
+  padding-top: 3rem;
+}
+
+.titulo-work {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.summary-work {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  font-size: 2.2rem;
+}
+
+.headline {
+  padding-top: 5rem;
+}
+
+.content-topic {
+  padding-top: 3rem;
+}
+
+.row {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 3rem;
+}
+
+.subtitulo-work {
+  font-size: 6rem;
+  font-weight: 900;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.square {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100%;
+}
+
+.round {
+  border-radius: 3rem;
+}
+
 /* ----------------------- RESPONSIVE 960px ------------------ */
 
 @media (min-width: 960px) {
@@ -185,7 +231,7 @@ h1 {
     display: flex;
   }
 
-  .column {
+  .column-billboard {
     width: 50%;
     padding: 5rem;
     font-size: 2.2rem;
@@ -218,5 +264,46 @@ h1 {
 
   .title-works {
     font-size: 3.5rem;
+  }
+
+  /* ---- PROJECT 1 ----- */
+
+  .column {
+    width: 65%;
+    padding: 2rem;
+  }
+
+  .column.small {
+    width: 25%;
+    padding-left: 15rem;
+  }
+
+  .column.medium {
+    padding-left: 15rem;
+  }
+
+  .topic {
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 3rem;
+  }
+
+  .titulo-work {
+    font-size: 13rem;
+    position: relative;
+    width: 150%;
+    z-index: 1;
+  }
+
+  .headline-img {
+    margin-top: 10rem;
+  }
+
+  .summary-work {
+    font-size: 2.8rem;
+  }
+
+  .img-work {
+    justify-content: center;
   }
 }
