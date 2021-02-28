@@ -89,7 +89,7 @@ html {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 2rem;
   line-height: 1.3;
   color: #232020;
@@ -101,7 +101,7 @@ p + p {
 
 /* ----------------------- UTILITIES ------------------ */
 
-a:link {
+a {
   text-decoration: none;
   color: #232020;
 }
@@ -185,6 +185,17 @@ h1 {
   padding-bottom: 5rem;
 }
 
+.square {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100%;
+}
+
+.round {
+  border-radius: 3rem;
+}
+
 /* ----------------------- RESPONSIVE 960px ------------------ */
 
 @media (min-width: 960px) {
@@ -218,6 +229,9 @@ h1 {
 
   .titulo-work {
     font-size: 13rem;
+    position: relative;
+    width: 150%;
+    z-index: 1;
   }
 
   .headline-img {
