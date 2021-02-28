@@ -133,7 +133,7 @@ h1 {
   bottom: 0;
 }
 
-/* ----------------------- LAYOUT ------------------ */
+/* -------------------------------- HOME -------------------------------- */
 
 .billboard {
   min-height: 100vh;
@@ -191,10 +191,6 @@ h1 {
   font-size: 2.2rem;
 }
 
-.headline {
-  padding: 10rem;
-}
-
 .content-topic {
   padding-top: 3rem;
 }
@@ -234,6 +230,11 @@ h1 {
   .column-billboard {
     width: 50%;
     padding: 5rem;
+  }
+
+  .column-headline {
+    width: 50%;
+    padding-left: 5rem;
     font-size: 2.2rem;
   }
 
