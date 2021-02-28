@@ -122,15 +122,6 @@ a {
   z-index: 9;
 }
 
-.wrapper {
-  margin: 0 auto;
-  padding: 2rem 2rem;
-}
-
-.wrapper.medium {
-  max-width: 145rem;
-}
-
 h1 {
   font-weight: 900;
   font-size: 10rem;
@@ -143,6 +134,15 @@ h1 {
 }
 
 /* ----------------------- MAIN ------------------ */
+
+.wrapper {
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+.wrapper.medium {
+  max-width: 145rem;
+}
 
 .topic {
   font-size: 2.8rem;
@@ -161,9 +161,8 @@ h1 {
   font-size: 2.2rem;
 }
 
-.headline-img {
-  margin-top: 2rem;
-  border-radius: 5%;
+.headline {
+  padding-top: 5rem;
 }
 
 .content-topic {
