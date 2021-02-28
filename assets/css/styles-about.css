@@ -85,11 +85,11 @@ select {
 
 html {
   font-size: 45%; /* Tipografía base: 10px*/
-  background: #ffd95f;
+  background: #ffe181;
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 2rem; /* Tamaño de fuente: 16px */
   line-height: 1.6;
   color: #232020;
