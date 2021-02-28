@@ -202,6 +202,10 @@ h1 {
   padding-bottom: 3rem;
 }
 
+.row-headline {
+  padding-left: 10rem;
+}
+
 .subtitulo-work {
   font-size: 6rem;
   font-weight: 900;
