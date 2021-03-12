@@ -177,7 +177,6 @@ h1 {
 .topic-headline {
   font-size: 2.8rem;
   font-weight: 200;
-  padding-top: 15rem;
 }
 
 .topic {
@@ -224,7 +223,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 100%;
-  padding-top: 15rem;
 }
 
 .round {
@@ -292,6 +290,10 @@ h1 {
 
   .column.medium {
     padding-left: 15rem;
+  }
+
+  .column.headline {
+    padding-top: 15rem;
   }
 
   .topic {
