@@ -211,6 +211,14 @@ h1 {
   padding-left: 10rem;
 }
 
+.row.background {
+  padding-top: 3rem;
+}
+
+.column.headline {
+  padding-top: 15rem;
+}
+
 .subtitulo-work {
   font-size: 6rem;
   font-weight: 900;
@@ -292,10 +300,6 @@ h1 {
     padding-left: 15rem;
   }
 
-  .column.headline {
-    padding-top: 15rem;
-  }
-
   .topic {
     font-size: 3rem;
     font-weight: 200;
@@ -307,10 +311,6 @@ h1 {
     position: relative;
     width: 150%;
     z-index: 1;
-  }
-
-  .headline-img {
-    margin-top: 10rem;
   }
 
   .summary-work {
