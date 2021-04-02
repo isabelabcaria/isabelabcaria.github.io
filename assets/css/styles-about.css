@@ -162,7 +162,7 @@ h1 {
 .works-img {
   border-radius: 5%;
   width: 400px;
-  height: 400px;
+  height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -170,7 +170,7 @@ h1 {
 .container {
   background-color: aliceblue;
   position: relative;
-  top: -10px;
+  top: -30px;
   padding: 1rem;
   border-radius: 5%;
 }
