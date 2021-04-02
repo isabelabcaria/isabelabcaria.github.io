@@ -153,8 +153,12 @@ h1 {
 
 /* -------------------------------- WORKS -------------------------------- */
 
+.topic-works {
+  font-size: 1.8rem;
+}
+
 .title-works {
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 3.9rem;
   font-weight: 900;
 }
@@ -172,7 +176,7 @@ h1 {
   position: relative;
   top: -30px;
   width: 300px;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 5%;
 }
 
@@ -312,11 +316,12 @@ ul {
   /* ---- WORKS ----- */
 
   .topic-works {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+    padding-bottom: 0.5rem;
   }
 
   .title-works {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   /* ---- PROJECT 1 ----- */
