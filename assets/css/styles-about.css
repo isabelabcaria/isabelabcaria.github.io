@@ -107,7 +107,7 @@ a {
 }
 
 a:hover {
-  background-color: blue;
+  background-color: #eb5e3f;
 }
 
 .navbar,
@@ -167,6 +167,7 @@ h1 {
 
 .works-img {
   border-radius: 5%;
+  background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
