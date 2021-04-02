@@ -161,12 +161,16 @@ h1 {
 
 .works-img {
   border-radius: 5%;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
   background-color: aliceblue;
   position: relative;
-  top: 20px;
+  top: -10px;
   padding: 1rem;
   border-radius: 5%;
 }
