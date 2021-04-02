@@ -99,10 +99,6 @@ p + p {
   margin: 6rem 0 6rem; /* dif */
 }
 
-.module {
-  cursor: url("../assets\images\swirl.svg"), auto;
-}
-
 /* ----------------------- UTILITIES ------------------ */
 
 a {
@@ -163,6 +159,10 @@ h1 {
   background-color: aliceblue;
   padding: 1rem;
   border-radius: 5%;
+}
+
+.column-img {
+  widht: 100px;
 }
 
 /* -------------------------------- PROJECT 1 -------------------------------- */
