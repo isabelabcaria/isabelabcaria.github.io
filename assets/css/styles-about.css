@@ -106,6 +106,10 @@ a {
   color: #232020;
 }
 
+a:hover {
+  background-color: blue;
+}
+
 .navbar,
 .footer-container {
   font-size: 2rem; /* Tamaño de fuente: 20px */
@@ -163,7 +167,8 @@ h1 {
 
 .works-img {
   border-radius: 5%;
-  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* -------------------------------- PROJECT 1 -------------------------------- */
