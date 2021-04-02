@@ -151,13 +151,6 @@ h1 {
   width: 100%;
 }
 
-.container-test {
-  position: relative;
-  top: -40px;
-  left: 200px;
-  background-color: cornsilk;
-}
-
 /* -------------------------------- WORKS -------------------------------- */
 
 .topic-works {
@@ -312,6 +305,13 @@ ul {
 
   .column-img {
     padding: 1rem;
+  }
+
+  .container-test {
+    position: relative;
+    top: -40px;
+    left: 200px;
+    background-color: cornsilk;
   }
 
   /* ---- WORKS ----- */
