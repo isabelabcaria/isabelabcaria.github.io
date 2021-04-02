@@ -197,7 +197,7 @@ h1 {
 }
 
 .content-topic {
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .row {
@@ -213,6 +213,9 @@ h1 {
 
 .row.background {
   padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .column.headline {
@@ -235,6 +238,21 @@ h1 {
 
 .round {
   border-radius: 3rem;
+}
+
+.img-work {
+  width: auto;
+  height: 500px;
+  padding-bottom: 10rem;
+}
+
+.img-mobileproto {
+  width: 200px;
+  height: 200px;
+}
+
+.img-webproto {
+  width: 300px;
 }
 
 /* ----------------------- RESPONSIVE 95px ------------------ */
@@ -287,7 +305,7 @@ h1 {
   /* ---- PROJECT 1 ----- */
 
   .column {
-    width: 50%;
+    width: 45%;
     padding: 2rem;
   }
 
@@ -298,6 +316,10 @@ h1 {
 
   .column.medium {
     padding-left: 15rem;
+  }
+
+  .column.topics {
+    width: 25%;
   }
 
   .topic {
