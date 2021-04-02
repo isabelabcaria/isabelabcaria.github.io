@@ -255,6 +255,12 @@ h1 {
   width: 300px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* ----------------------- RESPONSIVE 95px ------------------ */
 
 @media (min-width: 960px) {
@@ -305,7 +311,7 @@ h1 {
   /* ---- PROJECT 1 ----- */
 
   .column {
-    width: 45%;
+    width: 50%;
     padding: 2rem;
   }
 
@@ -315,6 +321,7 @@ h1 {
   }
 
   .column.medium {
+    width: 45%;
     padding-left: 15rem;
   }
 
@@ -341,5 +348,6 @@ h1 {
 
   .img-work {
     justify-content: center;
+    height: 450px;
   }
 }
