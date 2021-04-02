@@ -99,6 +99,10 @@ p + p {
   margin: 6rem 0 6rem; /* dif */
 }
 
+.module {
+  cursor: url("../assets\images\swirl.svg"), auto;
+}
+
 /* ----------------------- UTILITIES ------------------ */
 
 a {
