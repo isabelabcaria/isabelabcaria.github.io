@@ -151,12 +151,6 @@ h1 {
   width: 100%;
 }
 
-/* -------------------------------- ABOUT -------------------------------- */
-
-.aboutme {
-  padding-top: 5rem;
-}
-
 /* -------------------------------- WORKS -------------------------------- */
 
 .topic-works {
@@ -171,8 +165,8 @@ h1 {
 
 .works-img {
   border-radius: 5%;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -188,6 +182,8 @@ h1 {
 }
 
 /* -------------------------------- PROJECT 1 -------------------------------- */
+
+/* ----------------------- MAIN ------------------ */
 
 .wrapper {
   margin: 0 auto;
@@ -285,9 +281,19 @@ ul {
     display: flex;
   }
 
+  .row-headline {
+    display: flex;
+  }
+
   .column-billboard {
     width: 50%;
     padding: 5rem;
+  }
+
+  .column-headline {
+    width: 40%;
+    padding-left: 5rem;
+    font-size: 3.5rem;
   }
 
   h1 {
@@ -301,11 +307,11 @@ ul {
     padding: 1rem;
   }
 
-  .headline {
+  .container-test {
     position: relative;
     top: -40px;
     left: 200px;
-    font-size: 4rem;
+    background-color: cornsilk;
   }
 
   /* ---- WORKS ----- */
