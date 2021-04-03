@@ -307,11 +307,10 @@ ul {
     padding: 1rem;
   }
 
-  .container-test {
+  .headline {
     position: relative;
     top: -40px;
     left: 200px;
-    background-color: cornsilk;
   }
 
   /* ---- WORKS ----- */
