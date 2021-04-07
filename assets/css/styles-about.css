@@ -322,7 +322,7 @@ ul {
   }
 
   span::before {
-    content: "with";
+    content: "";
     animation: animate infinite 3s;
     color: #eb5e3f;
   }
