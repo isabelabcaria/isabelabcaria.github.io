@@ -324,6 +324,7 @@ ul {
   span::before {
     content: "with";
     animation: animate infinite 3s;
+    color: #eb5e3f;
   }
 
   @keyframes animate {
