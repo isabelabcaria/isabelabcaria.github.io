@@ -137,6 +137,11 @@ h1 {
   bottom: 0;
 }
 
+.contact-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
 /* -------------------------------- HOME -------------------------------- */
 
 .billboard {
