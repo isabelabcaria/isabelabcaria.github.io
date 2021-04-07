@@ -328,7 +328,7 @@ ul {
   }
 
   span::before {
-    content: " ";
+    content: "with";
     animation: animate infinite 5s;
     font-weight: 900;
   }
