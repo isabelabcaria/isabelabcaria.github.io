@@ -323,7 +323,7 @@ ul {
 
   span::before {
     content: " ";
-    animation: animate infinite 3s;
+    animation: animate infinite 5s;
     font-weight: 900;
   }
 
