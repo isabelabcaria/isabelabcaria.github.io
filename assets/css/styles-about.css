@@ -321,6 +321,23 @@ ul {
     font-size: 3rem;
   }
 
+  span::before {
+    content: "with";
+    animation: animate infinite 3s;
+  }
+
+  @keyframes animate {
+    0% {
+      content: "with";
+    }
+    50% {
+      content: "to";
+    }
+    75% {
+      content: "for";
+    }
+  }
+
   /* ---- WORKS ----- */
 
   .topic-works {
