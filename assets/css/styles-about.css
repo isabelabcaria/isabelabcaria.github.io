@@ -218,6 +218,7 @@ ul {
 .wrapper {
   margin: 0 auto;
   padding: 2rem 2rem;
+  padding-top: 10rem;
 }
 
 .wrapper.medium {
