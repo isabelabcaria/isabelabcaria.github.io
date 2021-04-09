@@ -163,6 +163,10 @@ ul {
   padding: 0;
 }
 
+.headline {
+  padding-bottom: 10rem;
+}
+
 /* -------------------------------- HOME -------------------------------- */
 
 .billboard {
