@@ -341,18 +341,17 @@ ul {
     content: "with";
     animation: animate infinite 5s;
     font-weight: 900;
-    background-color: #fdf799;
   }
 
   @keyframes animate {
     0% {
-      content: "with";
+      content: "WITH";
     }
     50% {
-      content: "to";
+      content: "TO";
     }
     75% {
-      content: "for";
+      content: "FOR";
     }
   }
 
