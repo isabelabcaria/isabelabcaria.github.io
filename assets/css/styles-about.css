@@ -345,13 +345,13 @@ ul {
 
   @keyframes animate {
     0% {
-      content: "WITH";
+      content: "with";
     }
     50% {
-      content: "TO";
+      content: "to";
     }
     75% {
-      content: "FOR";
+      content: "for";
     }
   }
 
