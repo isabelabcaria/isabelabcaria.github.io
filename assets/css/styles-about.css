@@ -341,6 +341,7 @@ ul {
     content: "with";
     animation: animate infinite 5s;
     font-weight: 900;
+    background-color: #fdf799;
   }
 
   @keyframes animate {
