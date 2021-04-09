@@ -96,7 +96,7 @@ body {
 }
 
 p + p {
-  margin: 6rem 0 6rem; /* dif */
+  margin: 4rem 0 4rem; /* dif */
 }
 
 /* ----------------------- UTILITIES ------------------ */
@@ -164,10 +164,6 @@ h1 {
 }
 
 /* -------------------------------- ABOUT -------------------------------- */
-
-.aboutme {
-  padding-top: 5rem;
-}
 
 /* -------------------------------- WORKS -------------------------------- */
 
@@ -240,7 +236,6 @@ h1 {
   padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
-  padding-bottom: 3rem;
 }
 
 .row-headline {
@@ -297,6 +292,11 @@ ul {
     display: flex;
   }
 
+  .row.position {
+    position: relative;
+    top: -40px;
+  }
+
   .row-headline {
     display: flex;
   }
@@ -325,7 +325,7 @@ ul {
 
   /* ---- HOME ----- */
 
-  .container-test {
+  .container-headline {
     position: relative;
     top: -40px;
     left: 300px;
@@ -349,6 +349,13 @@ ul {
     75% {
       content: "for";
     }
+  }
+
+  /* ---- ABOUT ----- */
+
+  .aboutme {
+    position: relative;
+    top: -40px;
   }
 
   /* ---- WORKS ----- */
