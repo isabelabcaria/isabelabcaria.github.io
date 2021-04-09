@@ -274,8 +274,6 @@ ul {
 }
 
 .img-work {
-  width: auto;
-  height: 500px;
 }
 
 .img-mobileproto {
@@ -416,5 +414,11 @@ ul {
 
   .summary-work {
     font-size: 2.8rem;
+  }
+
+  .img-work {
+    justify-content: center;
+    height: 500px;
+    width: auto;
   }
 }
