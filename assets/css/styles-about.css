@@ -327,6 +327,7 @@ ul {
 
   .column-img {
     padding: 1rem;
+    background-size: cover;
   }
 
   /* ---- HOME ----- */
