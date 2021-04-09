@@ -140,12 +140,12 @@ h1 {
 .contact-icon {
   height: 3rem;
   width: 3rem;
+  margin-right: 5rem;
 }
 
 .contact-socialmedia {
   display: flex;
   justify-content: space-between;
-  margin-right: 10rem;
 }
 
 /* -------------------------------- HOME -------------------------------- */
