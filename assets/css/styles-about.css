@@ -140,7 +140,8 @@ h1 {
 .contact-icon {
   height: 3rem;
   width: 3rem;
-  margin-right: 5rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .contact-socialmedia {
