@@ -153,6 +153,20 @@ h1 {
   justify-content: space-between;
 }
 
+.round {
+  border-radius: 3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.padding-bottom {
+  padding-bottom: 5rem;
+}
+
 /* -------------------------------- HOME -------------------------------- */
 
 .billboard {
@@ -264,10 +278,6 @@ h1 {
   padding-bottom: 100%;
 }
 
-.round {
-  border-radius: 3rem;
-}
-
 .img-work {
   width: auto;
   height: 500px;
@@ -281,12 +291,6 @@ h1 {
 
 .img-webproto {
   width: 300px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 /* -------------------------------- PROJECT 2 -------------------------------- */
