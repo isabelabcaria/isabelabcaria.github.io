@@ -110,6 +110,10 @@ a:hover {
   background-color: #fdf799;
 }
 
+.button.highlight {
+  background-color: #fdf799;
+}
+
 .navbar,
 .footer-container {
   font-size: 2rem; /* Tamaño de fuente: 20px */
