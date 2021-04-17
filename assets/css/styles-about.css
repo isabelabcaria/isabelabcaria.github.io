@@ -402,6 +402,10 @@ ul {
     padding: 2rem;
   }
 
+  .column.large {
+    padding-left: 15rem;
+  }
+
   .column.small {
     width: 25%;
     padding-left: 15rem;
