@@ -200,13 +200,6 @@ ul {
   background-size: cover;
 }
 
-.column-img {
-  background-size: cover;
-  max-width: 300px;
-  width 100%;
-  
-}
-
 .container {
   background-color: aliceblue;
   position: relative;
