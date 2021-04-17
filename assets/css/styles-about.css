@@ -249,6 +249,7 @@ ul {
 .wrapper {
   margin: 0 auto;
   padding: 2rem 2rem;
+  padding-top
 }
 
 .wrapper.medium {
@@ -284,6 +285,10 @@ ul {
 
 .row {
   padding: 1rem;
+}
+
+.padding-botom {
+  padding-bottom: 5rem;
 }
 
 .row-headline {
