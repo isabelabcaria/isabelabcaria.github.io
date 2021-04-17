@@ -164,8 +164,9 @@ ul {
 }
 
 .wip {
-  font-size: 15rem;
+  font-size: 3rem;
   font-weight: 900;
+  text-align: center;
 }
 
 /* -------------------------------- HOME -------------------------------- */
@@ -356,10 +357,6 @@ ul {
     font-size: 25rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .wip {
-    font-size: 15rem;
   }
 
   /* ---- HOME ----- */
