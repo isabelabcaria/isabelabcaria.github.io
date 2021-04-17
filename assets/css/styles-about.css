@@ -215,6 +215,18 @@ ul {
   font-weight: 900;
 }
 
+.row-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-img {
+  background-size: cover;
+  margin: 0 1rem;
+  max-width: 300px;
+  width: 100%;
+}
+
 .works-img {
   border-radius: 5%;
   width: 300px;
@@ -346,11 +358,6 @@ ul {
     font-size: 25rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .column-img {
-    padding: 1rem;
-    background-size: cover;
   }
 
   /* ---- HOME ----- */
