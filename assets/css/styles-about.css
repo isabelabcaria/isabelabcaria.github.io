@@ -177,6 +177,25 @@ ul {
   width: 100%;
 }
 
+.container-headline span::before {
+  content: "with";
+  animation: animate infinite 5s;
+  font-weight: 900;
+}
+
+@keyframes animate {
+  0% {
+    content: "with";
+  }
+  50% {
+    content: "to";
+  }
+  75% {
+    content: "for";
+  }
+}
+
+
 /* -------------------------------- ABOUT -------------------------------- */
 
 /* -------------------------------- WORKS -------------------------------- */
@@ -289,7 +308,7 @@ ul {
 
 /* ----------------------- RESPONSIVE 95px ------------------ */
 
-@media (min-width: 959px) {
+@media (max-width: 959px) {
   .container-headline br {
     display: none;
   }
@@ -347,24 +366,7 @@ ul {
     text-align: center;
   }
 
-  .container-headline span::before {
-    content: "with";
-    animation: animate infinite 5s;
-    font-weight: 900;
-  }
-
-  @keyframes animate {
-    0% {
-      content: "with";
-    }
-    50% {
-      content: "to";
-    }
-    75% {
-      content: "for";
-    }
-  }
-
+  
   /* ---- ABOUT ----- */
 
   .aboutme {
