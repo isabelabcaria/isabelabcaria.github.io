@@ -354,6 +354,10 @@ ul {
     font-size: 3.5rem;
   }
 
+  .column.cover-img {
+    padding-top: 15rem;
+  }
+
   h1 {
     font-weight: 900;
     font-size: 25rem;
@@ -395,6 +399,11 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .column.headline {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
   }
 
   .column {
