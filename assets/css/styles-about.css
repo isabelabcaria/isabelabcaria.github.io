@@ -298,6 +298,7 @@ ul {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
   padding-bottom: 100%;
 }
 
