@@ -177,6 +177,24 @@ ul {
   width: 100%;
 }
 
+.container-headline span::before {
+  content: "with";
+  animation: animate infinite 5s;
+  font-weight: 900;
+}
+
+@keyframes animate {
+  0% {
+    content: "with";
+  }
+  50% {
+    content: "to";
+  }
+  75% {
+    content: "for";
+  }
+}
+
 
 /* -------------------------------- ABOUT -------------------------------- */
 
@@ -192,6 +210,14 @@ ul {
   font-weight: 900;
 }
 
+.works-img {
+  border-radius: 5%;
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container {
   background-color: aliceblue;
   position: relative;
@@ -201,7 +227,6 @@ ul {
   padding: 2rem;
   border-radius: 5%;
 }
-
 
 /* -------------------------------- PROJECT 1 -------------------------------- */
 
@@ -267,6 +292,9 @@ ul {
   padding-bottom: 100%;
 }
 
+.img-work {
+}
+
 .img-mobileproto {
   width: 200px;
   height: 200px;
@@ -278,13 +306,12 @@ ul {
 
 /* -------------------------------- PROJECT 2 -------------------------------- */
 
-
 /* ----------------------- RESPONSIVE 95px ------------------ */
 
 @media (max-width: 959px) {
-  .container-headline br{
+  .container-headline br {
     display: none;
-}
+  }
 
 @media (min-width: 960px) {
   .row {
@@ -318,6 +345,11 @@ ul {
     padding-bottom: 3rem;
   }
 
+  .column-img {
+    padding: 1rem;
+    background-size: cover;
+  }
+
   /* ---- HOME ----- */
 
   .container-headline {
@@ -333,24 +365,7 @@ ul {
     min-width: 53px;
     text-align: center;
   }
-  
-  .container-headline span::before {
-    content: "with";
-    animation: animate infinite 5s;
-    font-weight: 900;
-  }
-  
-  @keyframes animate {
-    0% {
-      content: "with";
-    }
-    50% {
-      content: "to";
-    }
-    75% {
-      content: "for";
-    }
-  }
+
   
   /* ---- ABOUT ----- */
 
