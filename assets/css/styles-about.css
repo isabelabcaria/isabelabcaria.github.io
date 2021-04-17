@@ -177,6 +177,12 @@ ul {
   width: 100%;
 }
 
+.container-headline span {
+  display: inline-block;
+  min-width: 53px;
+  text-align: center;
+}
+
 .container-headline span::before {
   content: "with";
   animation: animate infinite 5s;
@@ -218,6 +224,18 @@ ul {
   background-size: cover;
 }
 
+.column-img {
+  background-size: cover;
+  max-width: 300px;
+  width 100%;
+  
+}
+
+.row-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .container {
   background-color: aliceblue;
   position: relative;
@@ -227,6 +245,7 @@ ul {
   padding: 2rem;
   border-radius: 5%;
 }
+
 
 /* -------------------------------- PROJECT 1 -------------------------------- */
 
@@ -345,11 +364,6 @@ ul {
     padding-bottom: 3rem;
   }
 
-  .column-img {
-    padding: 1rem;
-    background-size: cover;
-  }
-
   /* ---- HOME ----- */
 
   .container-headline {
@@ -359,13 +373,6 @@ ul {
     width: 300px;
     font-size: 3rem;
   }
-
-  .container-headline span {
-    display: inline-block;
-    min-width: 53px;
-    text-align: center;
-  }
-
   
   /* ---- ABOUT ----- */
 
