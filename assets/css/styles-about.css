@@ -404,6 +404,7 @@ ul {
 
   .column.large {
     padding-left: 15rem;
+    width: 100%;
   }
 
   .column.small {
