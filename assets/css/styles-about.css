@@ -226,22 +226,15 @@ ul {
   width: 100%;
 }
 
-.works-img {
-  border-radius: 5%;
-  width: 300px;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .container {
   background-color: aliceblue;
   position: relative;
   top: -30px;
-  width: 200px;
-  left: 20px;
+  width: 90%;
+  left: 5%;
   padding: 2rem;
   border-radius: 5%;
+  min-height: 113px;
 }
 
 /* -------------------------------- PROJECT 1 -------------------------------- */
