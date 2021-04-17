@@ -311,7 +311,7 @@ ul {
 }
 
 .img-mobileproto {
-  width: 200px;
+  width: 150px;
   margin: 0 auto;
 }
 
@@ -410,6 +410,7 @@ ul {
   .column.small {
     width: 25%;
     padding-left: 15rem;
+    padding-bottom: 0;
   }
 
   .column.medium {
