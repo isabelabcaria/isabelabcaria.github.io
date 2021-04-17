@@ -358,6 +358,10 @@ ul {
     padding-bottom: 3rem;
   }
 
+  .wip {
+    font-size: 15rem;
+  }
+
   /* ---- HOME ----- */
 
   .container-headline {
