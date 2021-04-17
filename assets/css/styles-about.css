@@ -177,30 +177,6 @@ ul {
   width: 100%;
 }
 
-.container-headline span {
-  display: inline-block;
-  min-width: 53px;
-  text-align: center;
-}
-
-.container-headline span::before {
-  content: "with";
-  animation: animate infinite 5s;
-  font-weight: 900;
-}
-
-@keyframes animate {
-  0% {
-    content: "with";
-  }
-  50% {
-    content: "to";
-  }
-  75% {
-    content: "for";
-  }
-}
-
 
 /* -------------------------------- ABOUT -------------------------------- */
 
@@ -229,11 +205,6 @@ ul {
   max-width: 300px;
   width 100%;
   
-}
-
-.row-wrapper {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .container {
@@ -322,10 +293,11 @@ ul {
 
 /* -------------------------------- PROJECT 2 -------------------------------- */
 
+
 /* ----------------------- RESPONSIVE 95px ------------------ */
 
 @media (max-width: 959px) {
-  .container-headline br {
+  .container-headline br{
     display: none;
   }
 
@@ -369,6 +341,30 @@ ul {
     left: 300px;
     width: 300px;
     font-size: 3rem;
+  }
+
+  .container-headline span {
+    display: inline-block;
+    min-width: 53px;
+    text-align: center;
+  }
+  
+  .container-headline span::before {
+    content: "with";
+    animation: animate infinite 5s;
+    font-weight: 900;
+  }
+  
+  @keyframes animate {
+    0% {
+      content: "with";
+    }
+    50% {
+      content: "to";
+    }
+    75% {
+      content: "for";
+    }
   }
   
   /* ---- ABOUT ----- */
