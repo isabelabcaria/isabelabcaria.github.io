@@ -336,7 +336,13 @@ ul {
     font-size: 3rem;
   }
 
-  span::before {
+  .container-headline span {
+    display: inline-block;
+    min-width: 53px;
+    text-align: center;
+  }
+
+  .container-headline span::before {
     content: "with";
     animation: animate infinite 5s;
     font-weight: 900;
