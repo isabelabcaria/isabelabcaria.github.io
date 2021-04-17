@@ -284,7 +284,7 @@ ul {
 @media (max-width: 959px) {
   .container-headline br{
     display: none;
-  }
+}
 
 @media (min-width: 960px) {
   .row {
