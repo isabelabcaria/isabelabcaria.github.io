@@ -177,6 +177,12 @@ ul {
   width: 100%;
 }
 
+.container-headline span {
+  display: inline-block;
+  min-width: 53px;
+  text-align: center;
+}
+
 .container-headline span::before {
   content: "with";
   animation: animate infinite 5s;
@@ -291,9 +297,6 @@ ul {
   padding-bottom: 100%;
 }
 
-.img-work {
-}
-
 .img-mobileproto {
   width: 200px;
   height: 200px;
@@ -358,12 +361,6 @@ ul {
     left: 300px;
     width: 300px;
     font-size: 3rem;
-  }
-
-  .container-headline span {
-    display: inline-block;
-    min-width: 53px;
-    text-align: center;
   }
 
   /* ---- ABOUT ----- */
