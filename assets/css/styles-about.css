@@ -492,5 +492,6 @@ ul {
   .img-work {
     padding-left: 15%;
     padding-right: 20%;
+    justify-content: center;
   }
 }
