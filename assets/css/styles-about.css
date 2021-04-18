@@ -296,7 +296,6 @@ ul {
 
 .column.headline {
   padding-top: 15rem;
-  padding-bottom: 10rem;
 }
 
 .subtitulo-work {
@@ -403,11 +402,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-
-  .column.headline {
-    padding-top: 15rem;
-    padding-bottom: 10rem;
   }
 
   .column {
