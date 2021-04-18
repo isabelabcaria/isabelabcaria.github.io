@@ -244,7 +244,7 @@ ul {
   min-height: 113px;
 }
 
-/* -------------------------------- PROJECT 1 -------------------------------- */
+/* -------------------------------- PROJECTS -------------------------------- */
 
 .wrapper {
   margin: 0 auto;
@@ -320,6 +320,50 @@ ul {
 
 .img-webproto {
   width: 300px;
+}
+
+/* ---- PROJECT 1 ----- */
+
+.diagram {
+  position: relative;
+  height: 350px;
+  width: 350px;
+}
+
+.item {
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+}
+
+.item-1 {
+  background: rgba(254, 246, 169, 0.85);
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.item-2 {
+  background: rgba(255, 243, 132, 0.85);
+  left: 150px;
+  top: 0;
+  z-index: 1;
+}
+
+.item-3 {
+  background: rgba(219, 209, 113, 0.85);
+  left: 75px;
+  top: 150px;
+  z-index: 2;
+}
+
+.content-text {
+  display: none;
 }
 
 /* -------------------------------- PROJECT 2 -------------------------------- */
@@ -447,51 +491,6 @@ ul {
 
   .img-work {
     justify-content: center;
-    height: 500px;
     width: auto;
-  }
-
-  /* ---- PROJECT 1 ----- */
-
-  .diagram {
-    position: relative;
-    height: 350px;
-    width: 350px;
-  }
-
-  .item {
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    position: absolute;
-    width: 200px;
-  }
-
-  .item-1 {
-    background: rgba(254, 246, 169, 0.85);
-    left: 0;
-    top: 0;
-    z-index: 3;
-  }
-
-  .item-2 {
-    background: rgba(255, 243, 132, 0.85);
-    left: 150px;
-    top: 0;
-    z-index: 1;
-  }
-
-  .item-3 {
-    background: rgba(219, 209, 113, 0.85);
-    left: 75px;
-    top: 150px;
-    z-index: 2;
-  }
-
-  .content-text {
-    display: none;
   }
 }
