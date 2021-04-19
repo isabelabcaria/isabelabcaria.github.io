@@ -192,6 +192,10 @@ ul {
   width: 100%;
 }
 
+.container-headline {
+  font-size: 2.2rem;
+}
+
 .container-headline span {
   display: inline-block;
   min-width: 45px;
