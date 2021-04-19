@@ -233,6 +233,7 @@ ul {
 .row-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 2rem;
 }
 
 .column-img {
