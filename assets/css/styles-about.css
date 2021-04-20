@@ -265,7 +265,8 @@ ul {
 }
 
 .legend {
-  justify-content: center;
+  position: relative;
+  left: 4rem;
 }
 
 .topic-headline {
