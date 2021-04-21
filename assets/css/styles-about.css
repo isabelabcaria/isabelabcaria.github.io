@@ -455,7 +455,7 @@ ul {
   }
 
   .column {
-    width: 50%;
+    width: 60%;
     padding: 2rem;
   }
 
@@ -497,7 +497,6 @@ ul {
 
   .img-work {
     padding-left: 15%;
-    padding-right: 20%;
     justify-content: center;
   }
 }
