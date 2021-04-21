@@ -238,6 +238,7 @@ ul {
 
 .column-img {
   margin: 0 1rem;
+  max-width: 300px;
   width: 100%;
 }
 
