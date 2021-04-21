@@ -264,10 +264,6 @@ ul {
   max-width: 145rem;
 }
 
-miniwrapper: {
-  max-width: 100rem;
-}
-
 .legend {
   position: relative;
   left: 4rem;
@@ -461,10 +457,6 @@ miniwrapper: {
   .column {
     width: 50%;
     padding: 2rem;
-  }
-
-  .reduce {
-    width: 70%;
   }
 
   .column.large {
