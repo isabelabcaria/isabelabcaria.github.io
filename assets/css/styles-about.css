@@ -264,6 +264,10 @@ ul {
   max-width: 145rem;
 }
 
+miniwrapper: {
+  max-width: 100rem;
+}
+
 .legend {
   position: relative;
   left: 4rem;
