@@ -459,6 +459,10 @@ ul {
     padding: 2rem;
   }
 
+  .reduce {
+    width: 70%;
+  }
+
   .column.large {
     padding-left: 15rem;
     width: 100%;
