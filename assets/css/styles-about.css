@@ -117,8 +117,7 @@ a:hover {
 .navbar,
 .footer-container {
   font-size: 2rem; /* Tamaño de fuente: 20px */
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
