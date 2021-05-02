@@ -90,7 +90,7 @@ html {
 
 body {
   font-family: "Poppins";
-  font-size: 2rem; /* Tamaño de fuente: 16px */
+  font-size: 2.5rem; /* Tamaño de fuente: px */
   line-height: 1.6;
   color: #232020;
 }
@@ -117,6 +117,7 @@ a:hover {
 .navbar,
 .footer-container {
   font-size: 2rem; /* Tamaño de fuente: 20px */
+  font-weight: 600;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
