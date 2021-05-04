@@ -116,7 +116,8 @@ a:hover {
 
 .navbar,
 .footer-container {
-  font-size: 3rem; /* Tamaño de fuente: px */
+  font-size: 2.8rem; /* Tamaño de fuente: px */
+  font-weight: 600;
   padding: 2.5rem;
   display: flex;
   justify-content: space-between;
