@@ -386,6 +386,7 @@ ul {
 
   .row {
     display: flex;
+    padding: 2rem;
   }
 
   .row.position {
