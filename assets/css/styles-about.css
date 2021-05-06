@@ -379,11 +379,6 @@ ul {
 }
 
 @media (min-width: 960px) {
-  .navbar,
-  .footer-container {
-    padding: 2rem;
-  }
-
   .row {
     display: flex;
     padding: 2rem;
@@ -396,6 +391,11 @@ ul {
 
   .row-headline {
     display: flex;
+  }
+
+  .navbar,
+  .footer-container {
+    padding: 2rem;
   }
 
   .column-billboard {
